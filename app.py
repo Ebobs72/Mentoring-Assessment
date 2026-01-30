@@ -22,9 +22,14 @@ st.markdown("""
 <style>
     /* Constrain main content width for readability while using wide layout */
     .block-container {
-        max-width: 800px;
+        max-width: 1000px;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    
+    /* Make radio buttons more compact */
+    .stRadio > div {
+        gap: 0.5rem;
     }
     
     /* Main styling */
@@ -360,7 +365,7 @@ def show_assessment():
             responses[q["id"]] = st.radio(
                 f"Q{q['id']} Rating",
                 options=[1, 2, 3, 4, 5],
-                format_func=lambda x: f"{x} - {RATING_LABELS[x]}",
+                format_func=lambda x: str(x),
                 horizontal=True,
                 key=f"q_{q['id']}",
                 label_visibility="collapsed"
