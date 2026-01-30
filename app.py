@@ -13,16 +13,18 @@ from data_manager import (
 st.set_page_config(
     page_title="Mentoring Skills Assessment",
     page_icon="📋",
-    layout="centered",
+    layout="wide",
     initial_sidebar_state="collapsed"
 )
 
 # Custom CSS for Progress International aesthetic
 st.markdown("""
 <style>
-    /* Hide sidebar by default for participants */
-    [data-testid="stSidebar"] {
-        display: none;
+    /* Constrain main content width for readability while using wide layout */
+    .block-container {
+        max-width: 800px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     /* Main styling */
