@@ -22,7 +22,7 @@ st.markdown("""
 <style>
     /* Constrain main content width for readability while using wide layout */
     .block-container {
-        max-width: 1000px;
+        max-width: 1200px;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -362,12 +362,10 @@ def show_assessment():
             </div>
             """, unsafe_allow_html=True)
             
-            # Shorter labels that fit on one line
-            short_labels = {1: "1 - Not", 2: "2 - Slightly", 3: "3 - Moderate", 4: "4 - Confident", 5: "5 - Highly"}
             responses[q["id"]] = st.radio(
                 f"Q{q['id']} Rating",
                 options=[1, 2, 3, 4, 5],
-                format_func=lambda x, labels=short_labels: labels[x],
+                format_func=lambda x: f"{x} - {RATING_LABELS[x]}",
                 horizontal=True,
                 key=f"q_{q['id']}",
                 label_visibility="collapsed"
