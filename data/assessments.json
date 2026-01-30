@@ -1,0 +1,112 @@
+[
+  {
+    "id": "assessment-1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "pre",
+    "responses": {"1": 3, "2": 3, "3": 2, "4": 3, "5": 4, "6": 2, "7": 2, "8": 2, "9": 3, "10": 2, "11": 2, "12": 4},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 2.67,
+    "submitted_at": "2025-03-05T10:30:00"
+  },
+  {
+    "id": "assessment-2",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "post",
+    "responses": {"1": 5, "2": 4, "3": 4, "4": 5, "5": 5, "6": 4, "7": 4, "8": 3, "9": 4, "10": 4, "11": 4, "12": 5},
+    "reflections": {"reflection1": "I've developed much stronger questioning skills and feel more confident holding space for silence.", "reflection2": "I will focus on asking more open questions and resisting the urge to give advice."},
+    "average_score": 4.25,
+    "submitted_at": "2025-04-20T14:15:00"
+  },
+  {
+    "id": "assessment-3",
+    "name": "Michael Chen",
+    "email": "michael.chen@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "pre",
+    "responses": {"1": 4, "2": 3, "3": 3, "4": 4, "5": 3, "6": 3, "7": 3, "8": 2, "9": 3, "10": 3, "11": 3, "12": 3},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 3.08,
+    "submitted_at": "2025-03-04T09:00:00"
+  },
+  {
+    "id": "assessment-4",
+    "name": "Michael Chen",
+    "email": "michael.chen@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "post",
+    "responses": {"1": 5, "2": 5, "3": 4, "4": 5, "5": 4, "6": 4, "7": 4, "8": 4, "9": 5, "10": 4, "11": 4, "12": 5},
+    "reflections": {"reflection1": "The boundary setting and contracting elements were most valuable.", "reflection2": "Clear contracting at the start of every relationship."},
+    "average_score": 4.42,
+    "submitted_at": "2025-04-21T11:30:00"
+  },
+  {
+    "id": "assessment-5",
+    "name": "Emma Williams",
+    "email": "emma.williams@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "pre",
+    "responses": {"1": 2, "2": 2, "3": 2, "4": 3, "5": 3, "6": 2, "7": 2, "8": 1, "9": 2, "10": 2, "11": 2, "12": 3},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 2.17,
+    "submitted_at": "2025-03-06T16:45:00"
+  },
+  {
+    "id": "assessment-6",
+    "name": "Emma Williams",
+    "email": "emma.williams@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "post",
+    "responses": {"1": 4, "2": 4, "3": 4, "4": 4, "5": 4, "6": 4, "7": 3, "8": 3, "9": 4, "10": 4, "11": 3, "12": 4},
+    "reflections": {"reflection1": "Understanding the difference between mentoring and coaching was transformative.", "reflection2": "Being more conscious about not jumping to solutions."},
+    "average_score": 3.75,
+    "submitted_at": "2025-04-22T10:00:00"
+  },
+  {
+    "id": "assessment-7",
+    "name": "James Taylor",
+    "email": "james.taylor@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "pre",
+    "responses": {"1": 3, "2": 4, "3": 3, "4": 3, "5": 4, "6": 3, "7": 3, "8": 3, "9": 3, "10": 3, "11": 3, "12": 4},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 3.25,
+    "submitted_at": "2025-03-05T08:30:00"
+  },
+  {
+    "id": "assessment-8",
+    "name": "Lisa Brown",
+    "email": "lisa.brown@nelft.nhs.uk",
+    "cohort": "cohort-1",
+    "assessment_type": "pre",
+    "responses": {"1": 3, "2": 3, "3": 3, "4": 4, "5": 4, "6": 3, "7": 2, "8": 2, "9": 3, "10": 3, "11": 2, "12": 4},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 3.0,
+    "submitted_at": "2025-03-07T13:20:00"
+  },
+  {
+    "id": "assessment-9",
+    "name": "David Wilson",
+    "email": "david.wilson@nelft.nhs.uk",
+    "cohort": "cohort-2",
+    "assessment_type": "pre",
+    "responses": {"1": 2, "2": 3, "3": 2, "4": 3, "5": 3, "6": 2, "7": 2, "8": 2, "9": 2, "10": 2, "11": 2, "12": 3},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 2.33,
+    "submitted_at": "2025-06-03T09:15:00"
+  },
+  {
+    "id": "assessment-10",
+    "name": "Rachel Green",
+    "email": "rachel.green@nelft.nhs.uk",
+    "cohort": "cohort-2",
+    "assessment_type": "pre",
+    "responses": {"1": 4, "2": 4, "3": 3, "4": 4, "5": 4, "6": 3, "7": 3, "8": 3, "9": 4, "10": 3, "11": 3, "12": 4},
+    "reflections": {"reflection1": "", "reflection2": ""},
+    "average_score": 3.5,
+    "submitted_at": "2025-06-04T11:00:00"
+  }
+]
